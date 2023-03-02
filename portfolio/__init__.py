@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, abort
 
 
 app = Flask(__name__)
@@ -27,7 +27,7 @@ projects = [
         "hero": "img/personal-finance.png",
         "categories": ["python", "postgresql", "web"],
         "slug": "personal-finance",
-        "prod": "https://docs.google.com/spreadsheets/d/1HHYoVnYiARJF5FpGrdWaXafuiph3TUGHDDtXKRBQOp8"
+        "prod": "https://docs.google.com/spreadsheets/d/1_q11caQVRR7T2tfqKfYYE2jHgTz5tz007A3hxmLOevI"
     }
 ]
 
